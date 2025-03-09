@@ -9,7 +9,7 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID: process.env.SESSION_ID === undefined ? "" : process.env.SESSION_ID,
+  SESSION_ID: process.env.SESSION_ID === undefined ? "levanter_9c8e014b6ab9b459bb2449063bfaced57" : process.env.SESSION_ID,
   LANG: process.env.LANG || "EN",
   AUTH_TOKEN: "",
   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null"  || process.env.HANDLER === undefined ? "^" : process.env.HANDLER,
